@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Componentes/Home/Home';
+import Menu from './Componentes/Menu/Menu';
+import About from './Componentes/About/About';
+import Servicio from './Componentes/Servicio/Servicio';
+import Modal from './Componentes/Modal/Modal';
+import Footer from './Componentes/Footer/Footer';
+import Skill from './Componentes/Skill/Skill';
+import Portafolio from './Componentes/Portafolio/Portafolio';
+import Experiencia from './Componentes/Experiencia/Experiencia';
+import Capacitaciones from './Componentes/Capacitaciones/Capacitaciones';
+import Contactame from './Componentes/Contactame/Contactame';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Modal/>
+      <div className="edrea_wrapper">
+        <Menu/>
+        <Home/>
+        <About/>
+        <Servicio/>
+        <Skill/>
+        <Portafolio/>
+        <Experiencia/>
+        <Capacitaciones/>
+        <Contactame/>
+        <Footer/>
+      </div>
     </div>
   );
 }
