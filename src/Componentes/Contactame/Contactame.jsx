@@ -19,7 +19,7 @@ function Contactame() {
         let mensaje = datos.mensaje;
         console.log(asunto, email, mensaje)
         try {
-            await axios.post("http://localhost:3001/api/form", {
+            await axios.post("https://node-express-smtp-email.herokuapp.com/api/form", {
                 email,
                 asunto,
                 mensaje
