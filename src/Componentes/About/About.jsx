@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 
 function About() {
@@ -22,7 +23,7 @@ function About() {
                                 Preparación y capacitaciones en automatización de procesos con Robots Dispatcher/Performer en Uipath Studio.
                             </p>
                             <div className="edrea_button">
-                                <a href="https://drive.google.com/file/d/1Zj5pVnGZjmuQzxdnySAPGiyNoafYc85j/view?usp=sharing" target= "_blank" >
+                                <a href="https://drive.google.com/file/d/1Zj5pVnGZjmuQzxdnySAPGiyNoafYc85j/view?usp=sharing" target= "_blank" rel="noreferrer" >
                                     Download CV
                                 </a>
                             </div>
