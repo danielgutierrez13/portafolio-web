@@ -16,12 +16,10 @@ function Home() {
 
                         <h3 className="title">
                             <span>
-                                Full-Stack Junior Developer
+                                Full Stack Developer
                             </span>
                             <br/>
-                            Web
-                            <br/>
-                            RPA
+                            RPA Developer
                         </h3>
                         <p className="description">
                             Universitario en formacion.

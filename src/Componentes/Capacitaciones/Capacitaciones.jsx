@@ -5,13 +5,14 @@ function Capacitaciones() {
   return (
     <section id="capacitaciones">
 
-        <div className="edrea_news">
+        <div className="edrea_testimonials">
             <div className="container">
                 <div className="content">
 
-                    <div className="edrea_title bg_white">
+                    <div className="edrea_title">
                         <p className="sub_text"><span>capacitaciones</span></p>
                         <h3 className="title">Mis <span>capacitaciones</span></h3>
+                        <br></br>
                     </div>
 
                     <div className="edrea_news_slider">

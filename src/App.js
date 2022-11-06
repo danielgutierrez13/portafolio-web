@@ -22,7 +22,6 @@ function App() {
         <Servicio/>
         <Skill/>
         <Portafolio/>
-        <Experiencia/>
         <Capacitaciones/>
         <Contactame/>
         <Footer/>
